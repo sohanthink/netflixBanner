@@ -129,7 +129,7 @@
 }
 #thumbs .current .item {
   background: #ff5722;
-  scale: 1.2;
+  scale: 0.9;
 }
 .owl-theme .owl-nav [class*="owl-"] {
   -webkit-transition: all 0.3s ease;
@@ -154,10 +154,10 @@
   z-index: 999;
 }
 #big.owl-theme .owl-prev {
-  left: 10px;
+  left: 100px;
 }
 #big.owl-theme .owl-next {
-  right: 10px;
+  right: 100px;
 }
 #thumbs.owl-theme .owl-next,
 #thumbs.owl-theme .owl-prev {
