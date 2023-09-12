@@ -1353,4 +1353,7 @@ responsive for banner=====================
   .owl-theme .owl-nav {
     display: none;
   }
+  #thumbs .item {
+    margin-bottom: 30px;
+  }
 }
