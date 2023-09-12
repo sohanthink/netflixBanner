@@ -1350,4 +1350,7 @@ responsive for banner=====================
   #big.owl-theme .owl-prev {
     display: none;
   }
+  .owl-theme .owl-nav {
+    display: none;
+  }
 }
