@@ -1344,7 +1344,7 @@ responsive for banner=====================
     left: 47px;
   }
   .outer .item .content {
-    height: 86vh;
+    height: 80vh;
   }
   #big.owl-theme .owl-next,
   #big.owl-theme .owl-prev {
@@ -1354,6 +1354,6 @@ responsive for banner=====================
     display: none;
   }
   #thumbs .item {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
   }
 }
