@@ -109,7 +109,9 @@
 #thumbs {
   position: absolute;
   bottom: 10px;
-  left: 0px;
+  left: 50%;
+  width: 80%;
+  transform: translateX(-50%);
 }
 #thumbs .item {
   background: #c9c9c9;
@@ -118,7 +120,6 @@
   border-radius: 3px;
   text-align: center;
   cursor: pointer;
-  width: 390px;
   margin-left: 40px;
 }
 #thumbs .item h1 {
@@ -162,4 +163,10 @@
 #thumbs.owl-theme .owl-next,
 #thumbs.owl-theme .owl-prev {
   background: #333;
+}
+.thumbs .owl-carousel .owl-stage-outer {
+  position: relative;
+  overflow: hidden;
+  /* -webkit-transform: translate3d(0px,0,;/* width: 90%; */
+  width: 90%;
 }
