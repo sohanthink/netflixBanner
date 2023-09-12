@@ -1343,4 +1343,11 @@ responsive for banner=====================
     top: 81px;
     left: 47px;
   }
+  .outer .item .content {
+    height: 86vh;
+  }
+  #big.owl-theme .owl-next,
+  #big.owl-theme .owl-prev {
+    display: none;
+  }
 }
