@@ -1320,3 +1320,27 @@ footer ul li a {
   /* -webkit-transform: translate3d(0px,0,;/* width: 90%; */
   width: 90%;
 }
+
+/* ==========================================
+responsive for banner=====================
+========================================== */
+
+@media screen and (max-width: 480px) {
+  /* CSS rules for mobile layout */
+  .outer .item .overlay .main {
+    top: 0;
+  }
+  .outer .item .overlay .main a h1 {
+    font-size: 24px;
+    padding-right: 70px;
+  }
+  .outer .item .content .main p {
+    color: white;
+    font-size: 12px;
+    padding-right: 70px;
+  }
+  .outer .item .overlay .main {
+    top: 81px;
+    left: 47px;
+  }
+}
