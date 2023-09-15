@@ -1253,7 +1253,7 @@ footer ul li a {
 }
 #thumbs {
   position: absolute;
-  bottom: 10px;
+  bottom: 10%;
   left: 50%;
   width: 90%;
   transform: translateX(-50%);
